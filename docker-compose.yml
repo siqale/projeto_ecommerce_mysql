@@ -1,0 +1,23 @@
+version: '3.1'
+volumes: 
+  dbdata:
+services:
+  mysql:
+    image: mysql
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment: 
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+
+    ports: 
+      - 3306:3306
+    restart: on-failure
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8081:80
+    environment:
+      PMA_HOST: mysql  # Use o nome do serviço do banco de dados para acessar o PHPMyAdmin
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1

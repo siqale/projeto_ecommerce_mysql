@@ -20,6 +20,10 @@ Desenvolver um projeto lógico para um empresa de Ecommerce.
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=30A3DC)](https://docs.github.com/)
 <br>
 
+## Projeto base
+![eer_base](https://github.com/siqale/projeto_ecommerce_mysql/assets/8174795/0211af00-43e9-445f-9852-2736b8466f1a)
+## Projeto refined
+![eer_refined](https://github.com/siqale/projeto_ecommerce_mysql/assets/8174795/d8ae682c-3c0f-49db-b6c7-0ba738ecc252)
 ## Criação 
 <table>
   <thead>

@@ -24,6 +24,34 @@ Desenvolver um projeto lógico para um empresa de Ecommerce.
 ![eer_base](https://github.com/siqale/projeto_ecommerce_mysql/assets/8174795/0211af00-43e9-445f-9852-2736b8466f1a)
 ## Projeto refined
 ![eer_refined](https://github.com/siqale/projeto_ecommerce_mysql/assets/8174795/d8ae682c-3c0f-49db-b6c7-0ba738ecc252)
+## Arquivos
+<table>
+  <thead>
+    <tr align="left">
+      <th>Arquivo</th>
+      <th>Nome</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <td>01</td>
+      <td>desafio_ecommerce_refined.mwb</td>
+      <td>
+        Projeto completo no MySQL Workbench
+      </td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>docker-compose.yml</td>
+      <td>
+        Arquivo yml docker para subida das imagens Linux já configuradas e funcionando. (uso opcional)
+      </td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
+
 ## Criação 
 <table>
   <thead>
@@ -36,14 +64,14 @@ Desenvolver um projeto lógico para um empresa de Ecommerce.
   <tbody align="left">
     <tr>
       <td>01</td>
-      <td>desafio_ecommerce_base</td>
+      <td>desafio_ecommerce_base1.sql</td>
       <td>
         Primeiro modelo lógido, EER e físico, replicando o conteúdo das aulas
       </td>
     </tr>
     <tr>
       <td>02</td>
-      <td>desafio_ecommerce_refined</td>
+      <td>desafio_ecommerce_base2.sql</td>
       <td>
         Projeto refinado, com inserção de novas tabelas, relacionamentos e atributos
       </td>
@@ -111,7 +139,7 @@ Desenvolver um projeto lógico para um empresa de Ecommerce.
 ### Pré-requisitos
 <ul>
   <li>MySQLWorkbench 8.0</li>
-  <li>MySQL - 5.0</li>
+  <li>MySQL 8.1.0 - MySQL Community Server - GPL</li>
   <li>Docker (opcional)</li>
 </ul>
 
